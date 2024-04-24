@@ -7,6 +7,7 @@ import { CounterM3Screen } from './src/presentation/screens/CounterM3Screen'
 import { CounterScreen } from './src/presentation/screens/CounterScreen'
 import { HelloScreen } from './src/presentation/screens/HelloScreen'
 import { DimensionScreen } from './src/presentation/screens/DimensionScreen'
+import { PositionScreen } from './src/presentation/screens/PositionScreen'
 
 export const App = () => {
   return (
@@ -20,7 +21,8 @@ export const App = () => {
         {/* <CounterScreen /> */}
         {/* <CounterM3Screen /> */}
         {/* <BoxObjectModelScreen /> */}
-        <DimensionScreen />
+        {/* <DimensionScreen /> */}
+        <PositionScreen />
       </SafeAreaView>
     </PaperProvider>
   )
